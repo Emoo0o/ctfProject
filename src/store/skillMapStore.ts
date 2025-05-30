@@ -1,6 +1,5 @@
 import { create } from 'zustand';
 import { SkillMapState, Category, PlayerSettings } from '../types/skillmap';
-import { Shield, Lock, FileSearch, Code } from 'lucide-react';
 
 const initialCategories: Category[] = [
   {
